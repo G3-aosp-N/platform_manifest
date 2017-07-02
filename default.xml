@@ -32,10 +32,11 @@
            sync-c="true"
            sync-j="8" />
 
- <!-- AOSP-D855 -->
+ <!-- AOSP-Pixel -->
   <project name="platform_build" path="build" groups="pdk,tradefed" remote="g3-aosp" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="vendor/aosp" name="android_vendor_aosp" groups="pdk-cw-fs,pdk-fs" remote="g3-aosp" />
   <project path="packages/apps/Settings" name="G3-aosp-N/platform_packages_apps_Settings" groups="pdk-fs" remote="github" revision="aosp-7.1.2" />
   <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="g3-aosp" />
   <project path="hardware/libhardware" name="AospExtended/platform_hardware_libhardware" groups="pdk-fs" remote="github" revision="7.x-beta" />
