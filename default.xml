@@ -583,8 +583,8 @@
   <project path="kernel/lge/hammerhead" name="Unlegacy-Android/android_kernel_lge_hammerhead" remote="github" revision="stable" />
 <!-- END hammerhead-Specific -->
 
-<project path="device/lge/mako" name="android_device_lge_mako" remote="cm" revision="cm-14.1" />
-<!--<project path="kernel/lge/mako" name="lge-kernel-mako" remote="cm" revision="cm-14.1" /> -->
+<project path="device/lge/mako" name="android_device_lge_mako" remote="g3-aosp" />
+<project path="kernel/lge/mako" name="lge-kernel-mako" remote="cm" revision="cm-14.1" />
 
 
 
